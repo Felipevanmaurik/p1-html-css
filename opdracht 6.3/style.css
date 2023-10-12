@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1b1b1b;
+    color: white;
+    justify-content: space-between; 
+}
+.nav-item {
+    text-align: center; 
+    padding: 10px; 
+    border: 2px solid rgb(0, 8, 255);
+}
+
+.nav-logo, .nav-login {
+    width: 25%; 
+    box-sizing: border-box; 
+}
